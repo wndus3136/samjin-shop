@@ -4,7 +4,7 @@ import { configureStore, createSlice} from "@reduxjs/toolkit"
 const user = createSlice({ //state 생성
     name: 'user',
     // initialState: '홍길동',
-    initialState: {name: '이주연', memberYear: 30}, //단일데이터는 멤버변수(momberYear)가 없다 
+    initialState: {name: '이주연', memberYear: 1}, //단일데이터는 멤버변수(momberYear)가 없다 
 
 
     reducers: {
